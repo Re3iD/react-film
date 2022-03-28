@@ -1,0 +1,16 @@
+.container{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0px 30px;
+}
+.element{
+  text-decoration: none;
+  color: rgba(23, 23, 250, 0.705);
+  padding: 10px 15px;
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+.element:hover{
+  background-color: gray;
+}

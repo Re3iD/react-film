@@ -1,0 +1,23 @@
+.container{
+    
+    display: grid!important;
+    grid-template-columns:1fr 1fr 1fr;
+    column-gap:10vw;
+    row-gap: 2vh;
+    grid-auto-flow: row;
+    justify-content: center;
+    
+    
+}
+.center{
+    padding: 5vw;
+}
+.content{
+  width: 100%;
+  display: inline;
+margin-bottom: 2vh;
+span{
+    color: rgba(67, 67, 245, 0.774);
+}
+}
+

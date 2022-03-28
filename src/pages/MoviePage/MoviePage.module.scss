@@ -1,0 +1,90 @@
+.container{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.row-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    height: 70vh;
+    margin-bottom: 2vh;
+    .column{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-around;
+    }
+    span{
+        margin-top: 5px;
+    }
+    img{
+        width: 100%;
+        margin-right: 3vw;
+        height: 100%;
+        object-fit: contain;
+    }
+    .descrip{
+        width: 25vw;
+        margin-right: 3vw;
+        text-align: justify;
+        h1{
+            text-align: center;
+        }
+        span{
+            margin-top: 2vh;
+        }
+        .icon{
+            margin-top: 2vh;
+        }
+    }
+    .synop{
+        width: 25vw;
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        margin-top: 5vh;
+        button{
+            margin-top: 2vh;
+        }
+    }
+    .strElem{
+        width: fit-content;
+        height: fit-content;
+        background-color: rgba(255, 255, 255, 0.644);
+        border: 1px solid black;
+    }
+    
+}
+.icon{
+    color: white;
+}
+.lower{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    iframe{
+        width: 23vw;
+        height: 30;
+
+    }
+}
+.comments{
+    overflow-x: hidden;
+    border: 2px solid rgba(245, 245, 245, 0.781);
+    height: 60vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+    .comment{
+        margin-top: 4px;
+        border: 2px solid rgba(245, 245, 245, 0.781);
+        width: 90%;
+        text-align: center;
+    }
+}
